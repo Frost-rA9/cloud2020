@@ -1,4 +1,4 @@
-package org.droplet.springcloud.controllet;
+package org.droplet.springcloud.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.droplet.springcloud.entities.CommonResult;
