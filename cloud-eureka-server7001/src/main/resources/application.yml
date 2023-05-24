@@ -12,3 +12,6 @@ eureka:
     service-url:
       # 设置 Eureka Server 交互地址
       defaultZone: http://eureka7002.com:7002/eureka/
+  server:
+    # Eureka 自我保护机制
+    enable-self-preservation: false
