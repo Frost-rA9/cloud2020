@@ -16,7 +16,21 @@ spring:
       # 读取分支
       label: master
 
+# rabbitmq 相关配置
+rabbitmq:
+  host: 192.168.56.227
+  port: 5672
+  username: admin
+  password: admin
+
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka
+
+# rabbitmq 相关配置，暴露 bus 刷新配置的端点
+management:
+  endpoints: # 暴露bus刷新配置的端点
+    web:
+      exposure:
+        include: 'bus-refresh'
