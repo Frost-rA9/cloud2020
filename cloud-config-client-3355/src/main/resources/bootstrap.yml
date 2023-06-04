@@ -13,12 +13,12 @@ spring:
       # 配置中心地址
       uri: http://localhost:3344
 
-# rabbitmq 相关配置
-rabbitmq:
-  host: 192.168.56.227
-  port: 5672
-  username: admin
-  password: admin
+  # rabbitmq 相关配置
+  rabbitmq:
+    host: 192.168.56.227
+    port: 5672
+    username: admin
+    password: admin
 
 # Eureka 服务注册中心地址
 eureka:
