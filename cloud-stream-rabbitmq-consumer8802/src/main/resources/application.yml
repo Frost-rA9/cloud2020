@@ -21,6 +21,7 @@ spring:
           destination: providerExchange        # Exchange名称
           content-type: application/json       # 消息类型，json为 "application/json"，文本则为 "text/plain"
           binder: defaultRabbit                # 设置要绑定的消息服务
+          group: A
 
 eureka:
   client:                                      # Eureka 注册配置
